@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synchronous & Asynchronous</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card-center">
+      <div class="col-left">
+
+        <h1>Input Number</h1>
+        <input type="number" id="input-number" name="input-number" class="input-number">
+
+        <div class="btn-group">
+          <button class="button" id="btn-ganjil" onclick="synchronous()">Synchronous</button>
+          <button class="button" id="btn-prima" onclick="asynchronous()">Asynchronous</button>
+        </div>
+      </div>
+  
+      <div class="col-right">
+        <div class="card-right">
+          <h1>Result</h1>
+          <div class="result">Ganjil :</div>
+          <div id="ganjil" style="color: #892CDC; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px;"></div>
+          <div class="result">Genap : </div>
+          <div id="genap" style="color: #892CDC; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px;"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
